@@ -15,7 +15,6 @@
  */
 
 #include "init_common.h"
-#include "vendor_init.h"
 
 void vendor_load_properties() {
     load_common_properties();
