@@ -104,6 +104,11 @@ BOARD_KERNEL_CMDLINE += swiotlb=1
 BOARD_KERNEL_CMDLINE += video=vfb:640x400,bpp=32,memsize=3072000
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
+#Hals
+TARGET_QCOM_AUDIO_VARIANT := caf-sm8150
+TARGET_QCOM_DISPLAY_VARIANT := caf-sm8150
+TARGET_QCOM_MEDIA_VARIANT := caf-sm8150
+
 # HIDL
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
