@@ -6,3 +6,6 @@ allow platform_app vendor_sysfs_battery_supply:dir search;
 allow platform_app vendor_sysfs_battery_supply:file { getattr open read }; 
 allow platform_app sysfs_kgsl:dir search;
 allow platform_app sysfs_kgsl:file { getattr open read };
+
+allow platform_app vendor_audio_prop:file { read };
+allow platform_app cgroup:file { read };
