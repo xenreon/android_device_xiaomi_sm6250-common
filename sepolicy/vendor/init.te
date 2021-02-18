@@ -1,4 +1,0 @@
-# USB Fastcharge
-allow init sysfs_usbcharge:file { write open };
-
-allow init vendor_file:file { execute execute_no_trans };
